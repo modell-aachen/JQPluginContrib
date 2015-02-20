@@ -1,0 +1,37 @@
+---+ JQPluginContrib
+
+%SHORTDESCRIPTION%
+
+---++ Usage
+
+<verbatim>
+%JQREQUIRE{"PLUGINNAME"}%
+</verbatim>
+
+*Available Plugins*
+
+| *Name* | *Description* | *URL* |
+| jqp::moment | Parse, validate, manipulate, and display dates in JavaScript. | [[http://momentjs.com/][Link]] |
+| jqp::moment::timezone | Parse and display dates in any timezone. | [[http://momentjs.com/timezone/][Link]] |
+| jqp::observe | Observe DOM mutations with jQuery | [[https://github.com/kapetan/jquery-observe][Link]] |
+| jqp::raphael | Vector graphics | [[http://raphaeljs.com/][Link]] |
+| jqp::spin | Spin.js dynamically creates spinning activity indicators | [[http://fgnass.github.io/spin.js/][Link]] |
+| jqp::tooltipster | Tooltips | [[http://iamceege.github.io/tooltipster/][Link]] |
+| jqp::underscore| Functional programming helpers | [[http://underscorejs.org/][Link]] |
+
+---++ Installation
+
+%$INSTALL_INSTRUCTIONS%
+
+---++ Info
+<!--
+   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
+-->
+
+|  Author: | Foswiki:Main.SvenMeyer |
+|  Copyright: | &copy; 2015, Modell Aachen GmbH |
+|  License: | MIT ([[http://opensource.org/licenses/MIT][The MIT License (MIT)]]) |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
+|  Home: | http://www.modell-aachen.de |
+|  Support: | http://www.modell-aachen.de |

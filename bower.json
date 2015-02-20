@@ -1,0 +1,30 @@
+{
+  "name": "JQPluginContrib",
+  "version": "1.0.0",
+  "authors": [
+    "Sven Meyer <meyer@modell-aachen.de>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.modell-aachen.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery-observe": "~2.0.1",
+    "momentjs": "~2.9.0",
+    "moment-timezone": "~0.3.0",
+    "raphael": "~2.1.3",
+    "spin.js": "~2.0.2",
+    "tooltipster": "~3.3.0",
+    "underscore": "~1.8.1"
+  }
+}

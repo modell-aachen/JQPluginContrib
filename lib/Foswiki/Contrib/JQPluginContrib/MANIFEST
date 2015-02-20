@@ -1,0 +1,17 @@
+data/System/JQPluginContrib.txt 0644
+lib/Foswiki/Contrib/JQPluginContrib/Config.spec 0644
+lib/Foswiki/Contrib/JQPluginContrib.pm 0644
+pub/System/JQPluginContrib/moment.uncompressed.js 0644
+pub/System/JQPluginContrib/observe.uncompressed.js 0644
+pub/System/JQPluginContrib/raphael.uncompressed.js 0644
+pub/System/JQPluginContrib/spin.uncompressed.js 0644
+pub/System/JQPluginContrib/timezone.uncompressed.js 0644
+pub/System/JQPluginContrib/tooltipster.uncompressed.js 0644
+pub/System/JQPluginContrib/underscore.uncompressed.js 0644
+pub/System/JQPluginContrib/moment.js 0644
+pub/System/JQPluginContrib/observe.js 0644
+pub/System/JQPluginContrib/raphael.js 0644
+pub/System/JQPluginContrib/spin.js 0644
+pub/System/JQPluginContrib/timezone.js 0644
+pub/System/JQPluginContrib/tooltipster.js 0644
+pub/System/JQPluginContrib/underscore.js 0644
