@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Observe;
+package Foswiki::Contrib::JQPluginContrib::Observe;
 use strict;
 use warnings;
 

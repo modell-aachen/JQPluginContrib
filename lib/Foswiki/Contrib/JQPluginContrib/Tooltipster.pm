@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Tooltipster;
+package Foswiki::Contrib::JQPluginContrib::Tooltipster;
 use strict;
 use warnings;
 

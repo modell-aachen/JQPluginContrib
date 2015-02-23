@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::MomentTimezone;
+package Foswiki::Contrib::JQPluginContrib::MomentTimezone;
 use strict;
 use warnings;
 

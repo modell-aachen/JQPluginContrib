@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Underscore;
+package Foswiki::Contrib::JQPluginContrib::Underscore;
 use strict;
 use warnings;
 

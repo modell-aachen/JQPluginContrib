@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Moment;
+package Foswiki::Contrib::JQPluginContrib::Moment;
 use strict;
 use warnings;
 

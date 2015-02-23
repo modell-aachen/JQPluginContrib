@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Spin;
+package Foswiki::Contrib::JQPluginContrib::Spin;
 use strict;
 use warnings;
 

@@ -1,4 +1,4 @@
-package Foswiki::Plugins::JQPluginContrib::Raphael;
+package Foswiki::Contrib::JQPluginContrib::Raphael;
 use strict;
 use warnings;
 
