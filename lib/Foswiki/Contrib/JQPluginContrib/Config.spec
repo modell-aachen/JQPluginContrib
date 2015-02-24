@@ -23,7 +23,7 @@ $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::observe'}{Module} = 'Foswiki::Contrib
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::raphael'}{Enabled} = 1;
 
 # **STRING EXPERT**
-$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::raphael'}{Module} = 'Foswiki::Contrib::JQPluginContrib::Raphel';
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::raphael'}{Module} = 'Foswiki::Contrib::JQPluginContrib::Raphael';
 
 # **BOOLEAN**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::spin'}{Enabled} = 1;
