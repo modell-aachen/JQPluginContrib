@@ -8,18 +8,6 @@ our $RELEASE = '1.0';
 our $SHORTDESCRIPTION = 'A bundle of usefull jquery/js plugins';
 our $NO_PREFS_IN_TOPIC = 1;
 
-sub init {
-  require Foswiki::Plugins::JQueryPlugin;
-
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::moment', 'Foswiki::Plugins::JQPluginContrib::Moment' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::moment::timezone', 'Foswiki::Plugins::JQPluginContrib::MomentTimezone' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::observe', 'Foswiki::Plugins::JQPluginContrib::Observe' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::raphael', 'Foswiki::Plugins::JQPluginContrib::Raphael' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::spin', 'Foswiki::Plugins::JQPluginContrib::Spin' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::tooltipster', 'Foswiki::Plugins::JQPluginContrib::Tooltipster' );
-  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::underscore', 'Foswiki::Plugins::JQPluginContrib::Underscore' );
-}
-
 1;
 
 __END__
