@@ -2,6 +2,12 @@
 # ---+++ JQueryPluginContrib
 
 # **BOOLEAN**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::justgage'}{Enabled} = 1;
+
+# **STRING EXPERT**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::justgage'}{Module} = 'Foswiki::Contrib::JQPluginContrib::JustGage';
+
+# **BOOLEAN**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::moment'}{Enabled} = 1;
 
 # **STRING EXPERT**

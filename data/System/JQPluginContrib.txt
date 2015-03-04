@@ -4,13 +4,20 @@
 
 ---++ Usage
 
+*From TML:*
 <verbatim>
 %JQREQUIRE{"PLUGINNAME"}%
+</verbatim>
+
+*From Perl:*
+<verbatim>
+Foswiki::Plugins::JQueryPlugin::createPlugin( 'PLUGINNAME' );
 </verbatim>
 
 *Available Plugins*
 
 | *Name* | *Description* | *URL* |
+| jqp::justgage | JustGage is a handy JavaScript plugin for generating and animating nice & clean gauges | [[http://justgage.com/][Link]] |
 | jqp::moment | Parse, validate, manipulate, and display dates in JavaScript. | [[http://momentjs.com/][Link]] |
 | jqp::moment::timezone | Parse and display dates in any timezone. | [[http://momentjs.com/timezone/][Link]] |
 | jqp::observe | Observe DOM mutations with jQuery | [[https://github.com/kapetan/jquery-observe][Link]] |

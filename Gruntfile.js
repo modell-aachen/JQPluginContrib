@@ -27,6 +27,9 @@ module.exports = function(grunt) {
           preserveComments: 'all'
         },
         files: {
+          '<%= pkg.pubDir %>/justgage.uncompressed.js': [
+            '<%= pkg.bower %>/justgage/justgage.js'
+          ],
           '<%= pkg.pubDir %>/moment.uncompressed.js': [
             '<%= pkg.bower %>/moment/min/moment-with-locales.js'
           ],
@@ -59,6 +62,9 @@ module.exports = function(grunt) {
           preserveComments: false
         },
         files: [{
+          '<%= pkg.pubDir %>/justgage.js': [
+            '<%= pkg.bower %>/justgage/justgage.js'
+          ],
           '<%= pkg.pubDir %>/moment.js': [
             '<%= pkg.bower %>/moment/min/moment-with-locales.js'
           ],

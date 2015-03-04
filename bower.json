@@ -25,6 +25,7 @@
     "raphael": "~2.1.3",
     "spin.js": "~2.0.2",
     "tooltipster": "~3.3.0",
-    "underscore": "~1.8.1"
+    "underscore": "~1.8.1",
+    "justgage": "*"
   }
 }

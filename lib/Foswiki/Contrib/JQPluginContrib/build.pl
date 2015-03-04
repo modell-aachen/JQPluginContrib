@@ -28,6 +28,8 @@ sub target_build {
   print "Done!\n";
 }
 
+sub target_compress {}
+
 package main;
 my $build = new JQPluginBuild();
 $build->build( $build->{target} );
