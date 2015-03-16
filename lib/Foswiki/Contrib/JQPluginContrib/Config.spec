@@ -2,6 +2,12 @@
 # ---+++ JQueryPluginContrib
 
 # **BOOLEAN**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::fancytree'}{Enabled} = 1;
+
+# **STRING EXPERT**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::fancytree'}{Module} = 'Foswiki::Contrib::JQPluginContrib::FancyTree';
+
+# **BOOLEAN**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::justgage'}{Enabled} = 1;
 
 # **STRING EXPERT**

@@ -14,6 +14,7 @@ our $SHORTDESCRIPTION = 'Plugin handler for JQPluginContrib';
 
 sub initPlugin {
   require Foswiki::Plugins::JQueryPlugin;
+  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::fancytree', 'Foswiki::Contrib::JQPluginContrib::FancyTree' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::justgage', 'Foswiki::Contrib::JQPluginContrib::JustGage' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::moment', 'Foswiki::Contrib::JQPluginContrib::Moment' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::moment::timezone', 'Foswiki::Contrib::JQPluginContrib::MomentTimezone' );

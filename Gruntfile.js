@@ -27,6 +27,9 @@ module.exports = function(grunt) {
           preserveComments: 'all'
         },
         files: {
+          '<%= pkg.pubDir %>/fancytree.uncompressed.js': [
+            '<%= pkg.bower %>/fancytree/dist/jquery.fancytree-all.js'
+          ],
           '<%= pkg.pubDir %>/justgage.uncompressed.js': [
             '<%= pkg.bower %>/justgage/justgage.js'
           ],
@@ -62,6 +65,9 @@ module.exports = function(grunt) {
           preserveComments: false
         },
         files: [{
+          '<%= pkg.pubDir %>/fancytree.js': [
+            '<%= pkg.bower %>/fancytree/dist/jquery.fancytree-all.js'
+          ],
           '<%= pkg.pubDir %>/justgage.js': [
             '<%= pkg.bower %>/justgage/justgage.js'
           ],
