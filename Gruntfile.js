@@ -18,6 +18,46 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: pkg,
 
+    copy: {
+      assets: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: [
+              '<%= pkg.bower %>/fancytree/dist/skin-win8/icons.gif',
+              '<%= pkg.bower %>/fancytree/dist/skin-win8/loading.gif'
+            ],
+            dest: '<%= pkg.pubDir %>/css/'
+          }
+        ],
+      },
+      compressed: {
+        files: [
+          {
+            expand: false,
+            flatten: true,
+            src: [
+              '<%= pkg.bower %>/fancytree/dist/skin-win8/ui.fancytree.min.css'
+            ],
+            dest: '<%= pkg.pubDir %>/css/fancytree.css'
+          }
+        ],
+      },
+      uncompressed: {
+        files: [
+          {
+            expand: false,
+            flatten: true,
+            src: [
+              '<%= pkg.bower %>/fancytree/dist/skin-win8/ui.fancytree.css'
+            ],
+            dest: '<%= pkg.pubDir %>/css/fancytree.uncompressed.css'
+          }
+        ],
+      }
+    },
+
     uglify: {
       dev: {
         options: {
@@ -99,6 +139,7 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.registerTask('default', ['build']);
