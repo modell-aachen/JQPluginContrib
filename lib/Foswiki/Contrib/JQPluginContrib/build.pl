@@ -25,6 +25,7 @@ sub target_build {
 
   print "Building...\n";
   print $this->sys_action( qw(grunt build) ) . "\n";
+  print $this->sys_action( qw(grunt copy) ) . "\n";
   print "Done!\n";
 }
 
