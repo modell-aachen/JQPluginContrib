@@ -23,7 +23,9 @@ Foswiki::Plugins::JQueryPlugin::createPlugin( 'PLUGINNAME' );
 | jqp::moment::timezone | Parse and display dates in any timezone. | [[http://momentjs.com/timezone/][Link]] |
 | jqp::observe | Observe DOM mutations with jQuery | [[https://github.com/kapetan/jquery-observe][Link]] |
 | jqp::raphael | Vector graphics | [[http://raphaeljs.com/][Link]] |
+| jqp::readmore | A smooth, responsive jQuery plugin for collapsing and expanding long blocks of text with "Read more" and "Close" links. | [[https://github.com/jedfoster/Readmore.js/][Link]] |
 | jqp::spin | Spin.js dynamically creates spinning activity indicators | [[http://fgnass.github.io/spin.js/][Link]] |
+| jqp::sweetalert2 | A beautiful replacement for JavaScript's "alert" | [[https://github.com/limonte/sweetalert2/][Link]] |
 | jqp::tooltipster | Tooltips | [[http://iamceege.github.io/tooltipster/][Link]] |
 | jqp::underscore| Functional programming helpers | [[http://underscorejs.org/][Link]] |
 

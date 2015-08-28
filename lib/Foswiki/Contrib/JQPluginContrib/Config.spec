@@ -38,10 +38,22 @@ $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::raphael'}{Enabled} = 1;
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::raphael'}{Module} = 'Foswiki::Contrib::JQPluginContrib::Raphael';
 
 # **BOOLEAN**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::readmore'}{Enabled} = 1;
+
+# **STRING EXPERT**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::readmore'}{Module} = 'Foswiki::Contrib::JQPluginContrib::ReadMore';
+
+# **BOOLEAN**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::spin'}{Enabled} = 1;
 
 # **STRING EXPERT**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::spin'}{Module} = 'Foswiki::Contrib::JQPluginContrib::Spin';
+
+# **BOOLEAN**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::sweetalert'}{Enabled} = 1;
+
+# **STRING EXPERT**
+$Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::sweetalert'}{Module} = 'Foswiki::Contrib::JQPluginContrib::SweetAlert';
 
 # **BOOLEAN**
 $Foswiki::cfg{JQueryPlugin}{Plugins}{'jqp::tooltipster'}{Enabled} = 1;

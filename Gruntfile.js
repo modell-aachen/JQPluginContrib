@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     var bowerrc = grunt.file.readJSON('.bowerrc');
     pkg.bower = bowerrc.directory;
   } catch( e ) {
-    pkg.bower = 'bower_components'
+    pkg.bower = 'bower_components';
   }
 
   grunt.initConfig({
@@ -59,6 +59,27 @@ module.exports = function(grunt) {
       }
     },
 
+    sass: {
+      dev: {
+        options: {
+          outputStyle: 'nested',
+        },
+        files: {
+          '<%= pkg.pubDir %>/sweetalert2.uncompressed.css': 
+            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss']
+        }
+      },
+      dist: {
+        options: {
+          outputStyle: 'compressed'
+        },
+        files: {
+          '<%= pkg.pubDir %>/sweetalert2.css': 
+            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss']
+        }
+      }
+    },
+
     uglify: {
       dev: {
         options: {
@@ -95,9 +116,15 @@ module.exports = function(grunt) {
           '<%= pkg.pubDir %>/raphael.uncompressed.js': [
             '<%= pkg.bower %>/raphael/raphael.js'
           ],
+          '<%= pkg.pubDir %>/readmore.uncompressed.js': [
+            '<%= pkg.bower %>/Readmore.js/readmore.js'
+          ],
           '<%= pkg.pubDir %>/spin.uncompressed.js': [
             '<%= pkg.bower %>/spin.js/spin.js',
             '<%= pkg.bower %>/spin.js/jquery.spin.js'
+          ],
+          '<%= pkg.pubDir %>/sweetalert2.uncompressed.js': [
+            '<%= pkg.bower %>/sweetalert2/src/sweetalert2.js'
           ],
           '<%= pkg.pubDir %>/timezone.uncompressed.js': [
             '<%= pkg.bower %>/moment-timezone/build/moment-timezone-with-data.js',
@@ -145,9 +172,15 @@ module.exports = function(grunt) {
           '<%= pkg.pubDir %>/raphael.js': [
             '<%= pkg.bower %>/raphael/raphael.js'
           ],
+          '<%= pkg.pubDir %>/readmore.js': [
+            '<%= pkg.bower %>/Readmore.js/readmore.js'
+          ],
           '<%= pkg.pubDir %>/spin.js': [
             '<%= pkg.bower %>/spin.js/spin.js',
             '<%= pkg.bower %>/spin.js/jquery.spin.js'
+          ],
+          '<%= pkg.pubDir %>/sweetalert2.js': [
+            '<%= pkg.bower %>/sweetalert2/src/sweetalert2.js'
           ],
           '<%= pkg.pubDir %>/timezone.js': [
             '<%= pkg.bower %>/moment-timezone/build/moment-timezone-with-data.js',
@@ -166,7 +199,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-sass');
 
   grunt.registerTask('default', ['build', 'copy']);
-  grunt.registerTask('build', ['uglify']);
+  grunt.registerTask('build', ['sass', 'uglify']);
 };

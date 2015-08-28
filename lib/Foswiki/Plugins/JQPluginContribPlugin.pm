@@ -20,7 +20,9 @@ sub initPlugin {
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::moment::timezone', 'Foswiki::Contrib::JQPluginContrib::MomentTimezone' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::observe', 'Foswiki::Contrib::JQPluginContrib::Observe' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::raphael', 'Foswiki::Contrib::JQPluginContrib::Raphael' );
+  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::readmore', 'Foswiki::Contrib::JQPluginContrib::ReadMore' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::spin', 'Foswiki::Contrib::JQPluginContrib::Spin' );
+  Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::sweetalert2', 'Foswiki::Contrib::JQPluginContrib::SweetAlert' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::tooltipster', 'Foswiki::Contrib::JQPluginContrib::Tooltipster' );
   Foswiki::Plugins::JQueryPlugin::registerPlugin( 'jqp::underscore', 'Foswiki::Contrib::JQPluginContrib::Underscore' );
   return 1;
