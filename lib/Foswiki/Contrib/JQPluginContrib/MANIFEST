@@ -8,7 +8,9 @@ lib/Foswiki/Contrib/JQPluginContrib/Moment.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/MomentTimezone.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/Observe.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/Raphael.pm 0644
+lib/Foswiki/Contrib/JQPluginContrib/ReadMore.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/Spin.pm 0644
+lib/Foswiki/Contrib/JQPluginContrib/SweetAlert.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/Tooltipster.pm 0644
 lib/Foswiki/Contrib/JQPluginContrib/Underscore.pm 0644
 pub/System/JQPluginContrib/fancytree.uncompressed.js 0644
