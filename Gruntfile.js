@@ -124,7 +124,7 @@ module.exports = function(grunt) {
             '<%= pkg.bower %>/spin.js/jquery.spin.js'
           ],
           '<%= pkg.pubDir %>/sweetalert2.uncompressed.js': [
-            '<%= pkg.bower %>/sweetalert2/src/sweetalert2.js'
+            '<%= pkg.srcDir %>/sweetalert2.js'
           ],
           '<%= pkg.pubDir %>/timezone.uncompressed.js': [
             '<%= pkg.bower %>/moment-timezone/build/moment-timezone-with-data.js',
@@ -180,7 +180,7 @@ module.exports = function(grunt) {
             '<%= pkg.bower %>/spin.js/jquery.spin.js'
           ],
           '<%= pkg.pubDir %>/sweetalert2.js': [
-            '<%= pkg.bower %>/sweetalert2/src/sweetalert2.js'
+            '<%= pkg.srcDir %>/sweetalert2.js'
           ],
           '<%= pkg.pubDir %>/timezone.js': [
             '<%= pkg.bower %>/moment-timezone/build/moment-timezone-with-data.js',
