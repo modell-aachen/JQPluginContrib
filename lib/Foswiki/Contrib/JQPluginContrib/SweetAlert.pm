@@ -14,7 +14,7 @@ sub new {
             version      => '1.0',
             author       => 'Modell Aachen GmbH',
             homepage     => 'http://www.modell-aachen.de',
-            css   => ['sweetalert2.css'],
+            css   => ['css/sweetalert2.css'],
             javascript   => ['sweetalert2.js'],
             puburl       => '%PUBURLPATH%/%SYSTEMWEB%/JQPluginContrib',
             dependencies => ['JQUERYPLUGIN::FOSWIKI::PREFERENCES'],

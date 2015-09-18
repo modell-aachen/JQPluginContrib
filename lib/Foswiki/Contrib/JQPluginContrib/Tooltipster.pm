@@ -14,6 +14,7 @@ sub new {
             version      => '1.0',
             author       => 'Modell Aachen GmbH',
             homepage     => 'http://www.modell-aachen.de',
+            css   => ['css/tooltipster.css'],
             javascript   => ['tooltipster.js'],
             puburl       => '%PUBURLPATH%/%SYSTEMWEB%/JQPluginContrib',
             dependencies => ['JQUERYPLUGIN::FOSWIKI::PREFERENCES'],

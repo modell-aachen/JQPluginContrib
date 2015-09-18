@@ -65,8 +65,10 @@ module.exports = function(grunt) {
           outputStyle: 'nested',
         },
         files: {
-          '<%= pkg.pubDir %>/sweetalert2.uncompressed.css': 
-            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss']
+          '<%= pkg.pubDir %>/css/sweetalert2.uncompressed.css': 
+            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss'],
+          '<%= pkg.pubDir %>/css/tooltipster.uncompressed.css': 
+            ['<%= pkg.bower %>/tooltipster/css/tooltipster.css']
         }
       },
       dist: {
@@ -74,8 +76,10 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          '<%= pkg.pubDir %>/sweetalert2.css': 
-            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss']
+          '<%= pkg.pubDir %>/css/sweetalert2.css': 
+            ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss'],
+          '<%= pkg.pubDir %>/css/tooltipster.css': 
+            ['<%= pkg.bower %>/tooltipster/css/tooltipster.css']
         }
       }
     },
