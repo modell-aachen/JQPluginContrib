@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git@git.modac.lan:q-wiki/JQPluginContrib.git"
   },
+  "scripts": {
+    "postinstall": "bower install && grunt build"
+  },
   "author": "Sven Meyer <meyer@modell-aachen.de>",
   "license": "MIT",
   "devDependencies": {
