@@ -65,10 +65,15 @@ module.exports = function(grunt) {
           outputStyle: 'nested',
         },
         files: {
-          '<%= pkg.pubDir %>/css/sweetalert2.uncompressed.css': 
+          '<%= pkg.pubDir %>/css/sweetalert2.uncompressed.css':
             ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss'],
-          '<%= pkg.pubDir %>/css/tooltipster.uncompressed.css': 
-            ['<%= pkg.bower %>/tooltipster/css/tooltipster.css']
+          '<%= pkg.pubDir %>/css/tooltipster.uncompressed.css': [
+            '<%= pkg.bower %>/tooltipster/dist/css/tooltipster.bundle.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css'
+          ]
         }
       },
       dist: {
@@ -76,10 +81,15 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          '<%= pkg.pubDir %>/css/sweetalert2.css': 
+          '<%= pkg.pubDir %>/css/sweetalert2.css':
             ['<%= pkg.bower %>/sweetalert2/src/sweetalert2.scss'],
-          '<%= pkg.pubDir %>/css/tooltipster.css': 
-            ['<%= pkg.bower %>/tooltipster/css/tooltipster.css']
+          '<%= pkg.pubDir %>/css/tooltipster.css': [
+            '<%= pkg.bower %>/tooltipster/dist/css/tooltipster.bundle.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css',
+            '<%= pkg.bower %>/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css'
+          ]
         }
       }
     },
@@ -135,7 +145,7 @@ module.exports = function(grunt) {
             '<%= pkg.bower %>/moment-timezone/moment-timezone-utils.js'
           ],
           '<%= pkg.pubDir %>/tooltipster.uncompressed.js': [
-            '<%= pkg.bower %>/tooltipster/js/jquery.tooltipster.js'
+            '<%= pkg.bower %>/tooltipster/dist/js/tooltipster.bundle.js'
           ],
           '<%= pkg.pubDir %>/underscore.uncompressed.js': [
             '<%= pkg.bower %>/underscore/underscore.js'
@@ -191,7 +201,7 @@ module.exports = function(grunt) {
             '<%= pkg.bower %>/moment-timezone/moment-timezone-utils.js'
           ],
           '<%= pkg.pubDir %>/tooltipster.js': [
-            '<%= pkg.bower %>/tooltipster/js/jquery.tooltipster.js'
+            '<%= pkg.bower %>/tooltipster/dist/js/tooltipster.bundle.js'
           ],
           '<%= pkg.pubDir %>/underscore.js': [
             '<%= pkg.bower %>/underscore/underscore.js'
