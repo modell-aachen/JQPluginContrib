@@ -26,8 +26,8 @@ module.exports = function(grunt) {
             expand: true,
             flatten: true,
             src: [
-              '<%= pkg.bower %>/fancytree/dist/skin-win8/icons.gif',
-              '<%= pkg.bower %>/fancytree/dist/skin-win8/loading.gif'
+              '<%= pkg.bower %>/jquery.fancytree/dist/skin-win8/icons.gif',
+              '<%= pkg.bower %>/jquery.fancytree/dist/skin-win8/loading.gif'
             ],
             dest: '<%= pkg.pubDir %>/css/'
           }
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
             expand: false,
             flatten: true,
             src: [
-              '<%= pkg.bower %>/fancytree/dist/skin-win8/ui.fancytree.min.css'
+              '<%= pkg.bower %>/jquery.fancytree/dist/skin-win8/ui.fancytree.min.css'
             ],
             dest: '<%= pkg.pubDir %>/css/fancytree.css'
           }
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
             expand: false,
             flatten: true,
             src: [
-              '<%= pkg.bower %>/fancytree/dist/skin-win8/ui.fancytree.css'
+              '<%= pkg.bower %>/jquery.fancytree/dist/skin-win8/ui.fancytree.css'
             ],
             dest: '<%= pkg.pubDir %>/css/fancytree.uncompressed.css'
           }
@@ -104,19 +104,19 @@ module.exports = function(grunt) {
         },
         files: {
           '<%= pkg.pubDir %>/fancytree.uncompressed.js': [
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.js',
             '<%= pkg.srcDir %>/jquery.fancytree.childcounter.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.clones.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.dnd.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.edit.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.filter.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.glyph.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.gridnav.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.menu.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.persist.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.table.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.themeroller.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.wide.js'
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.clones.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.dnd.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.edit.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.filter.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.glyph.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.gridnav.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.menu.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.persist.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.table.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.themeroller.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.wide.js'
           ],
           '<%= pkg.pubDir %>/justgage.uncompressed.js': [
             '<%= pkg.bower %>/justgage/justgage.js'
@@ -160,19 +160,19 @@ module.exports = function(grunt) {
         },
         files: [{
           '<%= pkg.pubDir %>/fancytree.js': [
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.js',
             '<%= pkg.srcDir %>/jquery.fancytree.childcounter.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.clones.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.dnd.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.edit.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.filter.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.glyph.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.gridnav.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.menu.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.persist.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.table.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.themeroller.js',
-            '<%= pkg.bower %>/fancytree/dist/src/jquery.fancytree.wide.js'
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.clones.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.dnd.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.edit.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.filter.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.glyph.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.gridnav.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.menu.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.persist.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.table.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.themeroller.js',
+            '<%= pkg.bower %>/jquery.fancytree/dist/src/jquery.fancytree.wide.js'
           ],
           '<%= pkg.pubDir %>/justgage.js': [
             '<%= pkg.bower %>/justgage/justgage.js'
