@@ -27,7 +27,7 @@
     "raphael": "^2.2.1",
     "Readmore.js": "readmorejs#^2.1.0",
     "spin.js": "^2.3.2",
-    "sweetalert2": "^4.2.8",
+    "sweetalert2": "~0.2.2",
     "underscore": "^1.8.3",
     "tooltipster": "^4.1.4"
   }
